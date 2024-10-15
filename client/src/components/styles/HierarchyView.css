@@ -1,0 +1,22 @@
+/* HierarchyView.css */
+.hierarchy-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .employee {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .children {
+    padding-left: 20px; /* Indent children */
+  }
+  
+  .child {
+    margin-left: 20px; /* Indent each child further */
+  }
+  

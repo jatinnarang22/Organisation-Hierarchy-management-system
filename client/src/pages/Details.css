@@ -1,0 +1,72 @@
+/* Details.css */
+
+body {
+    background-color: #f4f7f8; /* Light background for the entire page */
+    font-family: 'Arial', sans-serif; /* Font style for the page */
+  }
+  
+  .details-container {
+    max-width: 500px; /* Set a max width for the container */
+    margin: 40px auto; /* Center the container with margin */
+    padding: 30px; /* Add padding inside the container */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #ffffff; /* White background for details */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  .details-title {
+    text-align: center; /* Center the title */
+    color: #333; /* Dark color for title */
+    font-size: 28px; /* Larger font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+  }
+  
+  .details-employee-card {
+    background-color: #f9f9f9; /* Light background for employee info */
+    border-radius: 8px; /* Rounded corners for the card */
+    padding: 20px; /* Inner padding */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Shadow for card */
+  }
+  
+  .details-employee-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px; /* Font size for employee details */
+    line-height: 1.6; /* Line height for readability */
+    color: #555; /* Dark gray for text */
+  }
+  
+  .details-employee-info strong {
+    color: #007bff; /* Blue color for strong text */
+  }
+  
+  .loading {
+    text-align: center; /* Center the loading message */
+    font-size: 20px; /* Larger font size for visibility */
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .error {
+    text-align: center; /* Center the error message */
+    color: red; /* Red color for error messages */
+    font-weight: bold; /* Bold font for emphasis */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .details-details-container {
+      padding: 20px; /* Less padding on small screens */
+    }
+  
+    .details-details-title {
+      font-size: 24px; /* Smaller title font size */
+    }
+  
+    .details-employee-info {
+      font-size: 16px; /* Smaller font size for employee details */
+    }
+  }
+  
